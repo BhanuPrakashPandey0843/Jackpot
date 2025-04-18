@@ -8,8 +8,6 @@ const App = () => {
   return (
     <Router>
       <div className="flex flex-col min-h-screen">
-      
-        <Navbar />
         {/* Main content takes available space */}
         <main className="flex-grow">
           <Routes>
