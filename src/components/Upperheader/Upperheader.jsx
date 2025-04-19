@@ -30,6 +30,16 @@ const Upperheader = () => {
     { name: 'Hindi', flag: 'https://flagcdn.com/in.svg' },
   ];
 
+  const handleCurrencyClick = () => {
+    setCurrencyOpen(!currencyOpen);
+    setLanguageOpen(false); // close language if open
+  };
+
+  const handleLanguageClick = () => {
+    setLanguageOpen(!languageOpen);
+    setCurrencyOpen(false); // close currency if open
+  };
+
   const handleCurrencySelect = (currency) => {
     setSelectedCurrency(currency);
     setCurrencyOpen(false);
@@ -41,23 +51,22 @@ const Upperheader = () => {
   };
 
   return (
-    <nav className="w-full bg-gray-50 shadow-sm py-3 px-6 flex items-center justify-between">
+    <nav className="w-full bg-gray-50 shadow-sm py-3 px-6 flex items-center justify-between z-[999] relative">
       {/* Left Section */}
       <div className="flex items-center space-x-4 text-sm text-gray-700 relative">
         {/* Currency Dropdown */}
-        <div
-          onClick={() => setCurrencyOpen(!currencyOpen)}
-          className="relative cursor-pointer hover:text-red-500 transition"
-        >
-          {selectedCurrency}
-          <IoMdArrowDropdown className="inline-block ml-1 text-xs" />
+        <div className="relative cursor-pointer hover:text-red-500 transition">
+          <div onClick={handleCurrencyClick} className="flex items-center">
+            {selectedCurrency}
+            <IoMdArrowDropdown className="ml-1 text-xs" />
+          </div>
           {currencyOpen && (
-            <div className="absolute left-0 mt-2 w-56 bg-white border rounded-lg shadow-xl z-20 p-2 space-y-1">
+            <div className="absolute left-1/2 -translate-x-1 top-full mt-2 w-64 bg-white border border-gray-200 rounded-xl shadow-lg z-[999] py-2 animate-slide-down">
               {currencies.map((currency) => (
                 <p
                   key={currency}
                   onClick={() => handleCurrencySelect(currency)}
-                  className="hover:bg-gray-100 px-3 py-2 rounded cursor-pointer"
+                  className="px-4 py-2 text-sm hover:bg-red-50 hover:text-red-600 transition rounded-md cursor-pointer"
                 >
                   {currency}
                 </p>
@@ -69,20 +78,19 @@ const Upperheader = () => {
         <span>|</span>
 
         {/* Language Dropdown */}
-        <div
-          onClick={() => setLanguageOpen(!languageOpen)}
-          className="relative flex items-center space-x-1 cursor-pointer hover:text-red-500 transition"
-        >
-          <img src={selectedLanguage.flag} alt="Flag" className="w-4 h-4" />
-          <span>{selectedLanguage.name}</span>
-          <IoMdArrowDropdown className="text-xs" />
+        <div className="relative flex items-center space-x-1 cursor-pointer hover:text-red-500 transition">
+          <div onClick={handleLanguageClick} className="flex items-center">
+            <img src={selectedLanguage.flag} alt="Flag" className="w-4 h-4" />
+            <span className="ml-1">{selectedLanguage.name}</span>
+            <IoMdArrowDropdown className="ml-1 text-xs" />
+          </div>
           {languageOpen && (
-            <div className="absolute left-36 mt-2 w-56 bg-white border rounded-lg shadow-xl z-20 p-2 space-y-1">
+            <div className="absolute left-1/2 -translate-x-1/2 top-full mt-2 w-64 bg-white border border-gray-200 rounded-xl shadow-lg z-[999] py-2 animate-slide-down">
               {languages.map((lang) => (
                 <div
                   key={lang.name}
                   onClick={() => handleLanguageSelect(lang)}
-                  className="flex items-center space-x-2 hover:bg-gray-100 px-3 py-2 rounded cursor-pointer"
+                  className="flex items-center space-x-2 px-4 py-2 text-sm hover:bg-red-50 hover:text-red-600 transition rounded-md cursor-pointer"
                 >
                   <img src={lang.flag} alt={lang.name} className="w-4 h-4" />
                   <span>{lang.name}</span>
