@@ -88,7 +88,7 @@ const Banner = () => {
           {testimonials.concat(testimonials).map((t, index) => (
             <div
               key={`row1-${index}`}
-              className="bg-orange-100 rounded-xl p-6 w-80 shadow-lg flex-shrink-0"
+              className="bg-[#f9f6f3] rounded-xl p-6 w-80 shadow-lg flex-shrink-0"
             >
               <p className="text-gray-800 mb-4">"{t.text}"</p>
               <div className="flex items-center mt-4">
@@ -121,7 +121,7 @@ const Banner = () => {
             .map((t, index) => (
               <div
                 key={`row2-${index}`}
-                className="bg-orange-100 rounded-xl p-6 w-80 shadow-lg flex-shrink-0"
+                className="bg-[#f9f6f3] rounded-xl p-6 w-80 shadow-lg flex-shrink-0"
               >
                 <p className="text-gray-800 mb-4">"{t.text}"</p>
                 <div className="flex items-center mt-4">
