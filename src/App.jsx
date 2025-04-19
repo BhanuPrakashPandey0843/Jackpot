@@ -4,7 +4,7 @@ import LandingPage from './pages/LandingPage';
 import Navbar from './components/Navbar/Navbar';
 import Upperheader from './components/Upperheader/Upperheader'
 import Footer from './components/Footer/Footer';
-
+import ContactPage from './pages/ContactPage';
 const App = () => {
   return (
     <Router>
@@ -14,7 +14,8 @@ const App = () => {
         {/* Main content takes available space */}
         <main className="flex-grow">
           <Routes>
-            <Route path="/" element={<LandingPage />} />
+            <Route path="/home" element={<LandingPage />} />
+            <Route path="/contact" element={<ContactPage  />} />
           </Routes>
         </main>
         <Footer />

@@ -11,7 +11,7 @@ const Newsletter = () => {
         transition={{ duration: 0.6 }}
       >
         <h1 className="text-4xl font-bold mb-4 text-[#8B4513]">
-          Thread<span className="text-[#f26522]">ify</span>
+        Jack<span className="text-[#f26522]">Pot</span>
         </h1>
       </motion.div>
 
