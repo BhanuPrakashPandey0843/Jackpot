@@ -1,0 +1,73 @@
+[
+    {
+      "id": "prod001",
+      "title": "Classic Denim Jacket",
+      "description": "Stylish and durable, perfect for casual outings.",
+      "price": "$69",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/71xAu2L6JML._AC_UL1471_.jpg"
+    },
+    {
+      "id": "prod002",
+      "title": "Slim Fit Chinos",
+      "description": "Comfortable and classy trousers for everyday wear.",
+      "price": "$49",
+      "image": "https://images.unsplash.com/photo-1541099649105-f69ad21f3246"
+    },
+    {
+      "id": "prod003",
+      "title": "Cotton Polo Shirt",
+      "description": "Lightweight polo, great for summer days.",
+      "price": "$35",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/71xAu2L6JML._AC_UL1471_.jpg"
+    },
+    {
+      "id": "prod004",
+      "title": "Winter Puffer Jacket",
+      "description": "Stay warm and stylish during cold months.",
+      "price": "$99",
+      "image": "https://i.pinimg.com/originals/ff/2c/cd/ff2ccdaa377a8ed01b58b59bfcde40bb.jpg"
+    },
+    {
+      "id": "prod005",
+      "title": "Men's Checked Shirt",
+      "description": "Smart-casual checked shirt, fits all occasions.",
+      "price": "$42",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/71xAu2L6JML._AC_UL1471_.jpg"
+    },
+    {
+      "id": "prod006",
+      "title": "Leather Biker Jacket",
+      "description": "Edgy and timeless design for fashion-forward men.",
+      "price": "$120",
+      "image": "https://i.pinimg.com/originals/ff/2c/cd/ff2ccdaa377a8ed01b58b59bfcde40bb.jpg"
+    },
+    {
+      "id": "prod007",
+      "title": "Formal Navy Blazer",
+      "description": "Ideal for meetings and formal dinners.",
+      "price": "$150",
+      "image": "https://th.bing.com/th?id=OIF.qQo%2btpvRGHqetYwCLHORow&rs=1&pid=ImgDetMain"
+    },
+    {
+      "id": "prod008",
+      "title": "White Crew Neck T-Shirt",
+      "description": "A basic wardrobe essential.",
+      "price": "$19",
+      "image": "https://images.unsplash.com/photo-1541099649105-f69ad21f3246"
+    },
+    {
+      "id": "prod009",
+      "title": "Athletic Joggers",
+      "description": "Stretchy and perfect for workouts or lounging.",
+      "price": "$39",
+      "image": "https://th.bing.com/th?id=OIF.qQo%2btpvRGHqetYwCLHORow&rs=1&pid=ImgDetMain"
+    },
+    {
+      "id": "prod010",
+      "title": "Lightweight Windbreaker",
+      "description": "Great for breezy days and light rain.",
+      "price": "$59",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/71xAu2L6JML._AC_UL1471_.jpg"
+    }
+  ]
+  
