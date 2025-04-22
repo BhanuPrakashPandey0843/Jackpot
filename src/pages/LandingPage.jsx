@@ -5,6 +5,7 @@ import ShopCards from "../components/FashionGridComponent/FashionGridComponent"
 import Banner from "../components/Banner/Banner"
 import Moreproducts from "../components/Moreproducts/Moreproducts"
 import Newsletter from "../components/Newsletter/Newsletter"
+import MovingSentence from '../components/MovingSentence/MovingSentence'
 
 const LandingPage = () => {
   return (
@@ -12,9 +13,10 @@ const LandingPage = () => {
    
      <Hero />
      <ShopCards />
-     <Banner />
+     <MovingSentence />
      <Moreproducts />
-    <Newsletter />
+     <Banner />
+     <Newsletter />
 
     </div>
   )

@@ -1,0 +1,48 @@
+@keyframes scrollRight {
+    0% {
+      transform: translateX(-50%);
+    }
+    100% {
+      transform: translateX(0%);
+    }
+  }
+  
+  @keyframes scrollLeft {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+  
+  .marquee-container {
+    overflow: hidden;
+    white-space: nowrap;
+    font-size: 3.8rem; 
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    background-color: #f9f6f3;
+    padding: 1.5rem 0;
+  }
+  
+  .marquee-track {
+    display: inline-flex;
+    animation-duration: 50s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+  }
+  
+  .scroll-right .marquee-track {
+    animation-name: scrollRight;
+  }
+  
+  .scroll-left .marquee-track {
+    animation-name: scrollLeft;
+  }
+  
+  .marquee-item {
+    margin: 0 2rem;
+  }
+  
