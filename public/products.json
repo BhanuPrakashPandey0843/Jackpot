@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Regular Fit Long Sleeve Top",
+    "price": "$42.99",
+    "originalPrice": "$58.00",
+    "rating": "5.0",
+    "category": "Tops",
+    "bgColor": "#f97316",
+    "image": "https://wallpapers.com/images/high/orange-fashion-girl-37n9ycy8rwa47j7o.jpg"
+  },
+  {
+    "title": "Black Crop Tailored Jacket",
+    "price": "$62.99",
+    "originalPrice": "$75.00",
+    "rating": "4.8",
+    "category": "Outerwear",
+    "bgColor": "#fde047",
+    "image": "https://tse4.mm.bing.net/th/id/OIP.RV_-H9LRDc93MI2nnGjiPgHaHa?rs=1&pid=ImgDetMain"
+  },
+  {
+    "title": "One shoulder Top",
+    "price": "$42.10",
+    "originalPrice": "$48.00",
+    "rating": "5.0",
+    "category": "Tops",
+    "bgColor": "#fda4af",
+    "image": "https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/16108374/2022/8/17/c69cad09-e3ad-4898-99c9-e74e5b3876cf1660739142678CutiekinsPeachRedFloralPrintedRufflesCrepeShirtStyleTop1.jpg"
+  },
+  {
+    "title": "Textured Sunset Shirt",
+    "price": "$31.50",
+    "originalPrice": "$38.00",
+    "rating": "5.0",
+    "category": "Tops",
+    "bgColor": "#c084fc",
+    "image": "https://i.etsystatic.com/22421837/r/il/6dc237/4142277229/il_1080xN.4142277229_2oa7.jpg"
+  }
+]
